@@ -1,0 +1,32 @@
+* {
+    bg: #050805;
+    bg-alt: #101510;
+    fg: #00FF41;
+
+    background-color: @bg;
+    text-color: @fg;
+
+    border-color: #00FF41;
+
+    font: "JetBrainsMono Nerd Font Bold 11";
+}
+
+window {
+    width: 30%;
+    border: 2px;
+    padding: 15px;
+}
+
+inputbar {
+    padding: 10px;
+    margin: 10px;
+}
+
+element {
+    padding: 8px;
+}
+
+element selected {
+    background-color: #00FF41;
+    text-color: #000000;
+}
